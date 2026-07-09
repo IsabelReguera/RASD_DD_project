@@ -83,13 +83,13 @@ The Design Document translates the specified requirements into a concrete softwa
 The domain model captures the key entities of the world targeted by BBP — users, trips, bike paths, path segments, status reports, and their relationships — together with the constraints that regulate them.
 
 <p align="center">
-  <img src="assets/domain-model.png" alt="Domain model — class diagram" width="720"/>
+  <img src="Assets/domain-model.png" alt="Domain model — class diagram" width="720"/>
 </p>
 
 State diagrams complement the class model by describing how a bike path's status evolves as new reports are submitted and merged.
 
 <p align="center">
-  <img src="assets/path-state-diagram.png" alt="Bike path state diagram" width="520"/>
+  <img src="Assets/path-state-diagram.png" alt="Bike path state diagram" width="520"/>
 </p>
 
 ---
@@ -99,13 +99,13 @@ State diagrams complement the class model by describing how a bike path's status
 The functional requirements are organized around the main actors of the system: **guest users**, **registered users**, and the **external weather service**.
 
 <p align="center">
-  <img src="assets/use-case-diagram.png" alt="Use case diagram" width="720"/>
+  <img src="Assets/use-case-diagram.png" alt="Use case diagram" width="720"/>
 </p>
 
 Each use case is refined through sequence or activity diagrams. Below, the flow for the **automated insertion of path information** while the user is biking:
 
 <p align="center">
-  <img src="assets/sequence-automated-insertion.png" alt="Sequence diagram — automated path insertion" width="720"/>
+  <img src="Assets/sequence-automated-insertion.png" alt="Sequence diagram — automated path insertion" width="720"/>
 </p>
 
 ---
@@ -117,13 +117,13 @@ BBP is designed as a distributed system with a mobile client, a backend orchestr
 ### Component view
 
 <p align="center">
-  <img src="assets/component-view.png" alt="Component view" width="720"/>
+  <img src="Assets/component-view.png" alt="Component view" width="720"/>
 </p>
 
 ### Deployment view
 
 <p align="center">
-  <img src="assets/deployment-view.png" alt="Deployment view" width="720"/>
+  <img src="Assets/deployment-view.png" alt="Deployment view" width="720"/>
 </p>
 
 ### Runtime view
@@ -131,7 +131,7 @@ BBP is designed as a distributed system with a mobile client, a backend orchestr
 Sequence diagrams describe how components collaborate to fulfill the main use cases — for example, computing and visualizing the best paths between two points.
 
 <p align="center">
-  <img src="assets/runtime-view.png" alt="Runtime view — path visualization" width="720"/>
+  <img src="Assets/runtime-view.png" alt="Runtime view — path visualization" width="720"/>
 </p>
 
 ---
@@ -141,7 +141,7 @@ Sequence diagrams describe how components collaborate to fulfill the main use ca
 An Alloy model was built to formally capture the core invariants of the BBP world — for instance, the well-formedness of paths, the consistency of merged status reports, and the freshness-based rules that govern which report prevails. The model was validated through the Alloy Analyzer by generating example worlds and checking assertions on the properties of interest.
 
 <p align="center">
-  <img src="assets/alloy-world.png" alt="Alloy — generated world" width="720"/>
+  <img src="Assets/alloy-world.png" alt="Alloy — generated world" width="720"/>
 </p>
 
 ---
