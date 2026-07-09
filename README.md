@@ -63,7 +63,7 @@ Following the IEEE-inspired structure recommended by the course, the RASD covers
 - **Specific requirements** — external interfaces, functional requirements formalized through use case diagrams and use cases with sequence/activity diagrams, plus non-functional requirements (performance, reliability, availability, security, maintainability, portability).
 - **Formal analysis using Alloy** — a formal model validated through the Alloy Analyzer, including generated worlds and assertion checks that demonstrate the soundness of key properties of the specification.
 
-📎 [Read the full RASD](DeliveryFolder/RASDv1.pdf)
+📎 [Read the full RASD](RASD_softeng2.pdf)
 
 ### 📐 DD — Design Document
 
@@ -74,7 +74,7 @@ The Design Document translates the specified requirements into a concrete softwa
 - **Requirements traceability** — explicit mapping between requirements defined in the RASD and design elements in the DD.
 - **Implementation, integration, and test plan** — proposed order for implementing subcomponents, integrating them, and testing the integration.
 
-📎 [Read the full DD](DeliveryFolder/DDv1.pdf)
+📎 [Read the full DD](DD_softeng2.pdf)
 
 ---
 
