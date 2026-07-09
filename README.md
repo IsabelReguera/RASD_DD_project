@@ -102,11 +102,7 @@ The functional requirements are organized around the main actors of the system: 
   <img src="Assets/use-case-diagram.png" alt="Use case diagram" width="720"/>
 </p>
 
-Each use case is refined through sequence or activity diagrams. Below, the flow for the **automated insertion of path information** while the user is biking:
-
-<p align="center">
-  <img src="Assets/sequence-automated-insertion.png" alt="Sequence diagram — automated path insertion" width="720"/>
-</p>
+Each use case is refined through sequence or activity diagrams. 
 
 ---
 
